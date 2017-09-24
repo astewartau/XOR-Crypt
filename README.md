@@ -1,7 +1,11 @@
 # XOR-Crypt
-Command-line program to encrypts and decrypt files using XOR encryption
+Command-line tool and C++ Headers to encrypt and decrypt files using XOR encryption.
 
-## Usage
+## Instructions
+- Compile main.cpp to build the command-line tool
+- Include xor.hpp for use of the XORCryptFile function
+
+## Command-line usage
 `xor original_file_path key [new_file_path]`
 
 - **original_file_path**: The file to encrypt/decrypt
